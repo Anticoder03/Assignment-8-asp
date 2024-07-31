@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(london.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+section .glassBox {
+    position: relative;
+    max-width: 500px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: #fff;
+    z-index:10;
+}
+section .glassBox:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: url(london.jpg);
+    background-attachment: fixed;
+    filter: blur(4px);
+}
+section .glassBox div 
+{
+	position: relative;
+    z-index:10;
+  
+}

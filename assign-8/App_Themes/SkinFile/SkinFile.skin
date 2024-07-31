@@ -1,0 +1,5 @@
+﻿      <asp:Label runat="server" Text="Label" style="font-family: 'fira Code'; font-size: 13px; font-weight: bold; font-style: italic; font-variant: inherit; text-transform: uppercase; color: #ffffff; text-decoration: blink"></asp:Label>
+   
+        <asp:TextBox  runat="server" BorderColor="#000062" 
+            BorderStyle="Solid" BorderWidth="2px" 
+            ForeColor="#000062" ToolTip="Enter Name:"></asp:TextBox>
